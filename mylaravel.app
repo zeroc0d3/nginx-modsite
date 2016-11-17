@@ -21,7 +21,8 @@ server {
 
         # URLs to attempt, including pretty ones.
         try_files   $uri $uri/ /index.php?$query_string;
-
+        #error_page 405 = $uri;
+        error_page 405 =200 $uri;
     }
 
     # Remove trailing slash to please routing system.
