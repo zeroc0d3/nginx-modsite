@@ -3,9 +3,9 @@ nginx modsite enable / disable
 
 ## Install ##
 * Clone / download this repo
-* Copy "nginx_modsite" file to "/usr/bin"
+* Copy "nginx_modsite" file to "/usr/local/sbin"
 ```
-cp nginx_modsite /usr/bin/nginx_modsite
+cp nginx_modsite /usr/local/sbin/nginx_modsite
 ```
 * Change permission to execute 
 ```
