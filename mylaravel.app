@@ -1,10 +1,14 @@
+# Configuration with domain "mylaravel.app"
+# edit: nano /etc/hosts
+# add: 127.0.0.1   mylaravel.app
+
 server {
 
     # Port that the web server will listen on.
     listen          80;
 
      # Host that will serve this project.
-    server_name     .mylaravel.app;
+    server_name     mylaravel.app;
 
     # Useful logs for debug.
     access_log      /home/zeroc0d3/repos/mylaravel.app/access.log;
