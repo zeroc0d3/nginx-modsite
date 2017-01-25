@@ -9,7 +9,7 @@ cp nginx_modsite /usr/local/sbin/nginx_modsite
 ```
 * Change permission to execute 
 ```
-sudo chmod +x /usr/bin/nginx_modsite
+sudo chmod +x /usr/local/sbin/nginx_modsite
 ```
 * Done.
 
